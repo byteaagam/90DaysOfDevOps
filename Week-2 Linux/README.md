@@ -9,7 +9,7 @@ Create a user devops_user and add them to a group devops_team.
 #### 1️⃣ Create group devops_team
 
 <img width="574" height="97" alt="image" src="https://github.com/user-attachments/assets/396691bf-cd72-4b3d-b87f-2705669c510f" />
-
+<br>
 
 <img width="429" height="100" alt="image" src="https://github.com/user-attachments/assets/e87b375b-1cfa-405a-9602-3690c1113e69" />
 
@@ -59,6 +59,8 @@ $AllowGroups devops_team
 
 #### 3️⃣ Set permissions: Owner can edit, group can read, others have no access.
 
+<img width="451" height="142" alt="image" src="https://github.com/user-attachments/assets/87fe1372-ef2b-450e-8497-0884d6c21f9d" />
+
 
 #### 4️⃣ Use ls -l to verify permissions
 
@@ -69,21 +71,28 @@ $AllowGroups devops_team
 
 ### C. **Log File Analysis with AWK, Grep & Sed**
 #### 1️⃣.Create /devops_workspace Use grep to find all occurrences of the word "authentication failure".
+grep -i "authentication failure" app.log
+<img width="1129" height="327" alt="image" src="https://github.com/user-attachments/assets/3ba73f12-a209-484e-bc63-58140328a96c" />
 
-<img width="512" height="585" alt="Screenshot from 2026-02-06 14-26-35" src="https://github.com/user-attachments/assets/6b86220a-5acd-425a-b8f0-34a71a1153a3" />
 
 #### 2️⃣ Use awk to extract timestamps and log levels.
 
-<img width="512" height="585" alt="Screenshot from 2026-02-06 14-31-27" src="https://github.com/user-attachments/assets/a0f913c6-cc37-4d61-9cc1-ebb65105515d" />
+<img width="642" height="218" alt="image" src="https://github.com/user-attachments/assets/8ceab1f3-201e-4680-940d-e97ed3248cb1" />
+
 
 #### 3️⃣ Use sed to replace all IP addresses with [REDACTED] for security.
 
-<img width="512" height="586" alt="Screenshot from 2026-02-06 14-38-22" src="https://github.com/user-attachments/assets/444111b8-82f4-4ccb-a125-c74961f9b654" />
+<img width="1162" height="282" alt="image" src="https://github.com/user-attachments/assets/d445cb06-2a3a-4b23-9405-a142d9319362" />
+
+
+
 
 #### 4️⃣ Find the most frequent log entry using sort | uniq -c | sort -nr | head -10.
 
 
-<img width="512" height="517" alt="Screenshot from 2026-02-06 14-42-34" src="https://github.com/user-attachments/assets/9225d5cb-a189-47b9-8efe-21a3ab58f72d" />
+<img width="1040" height="173" alt="image" src="https://github.com/user-attachments/assets/f30cfc8a-f6d9-42c7-85ae-9782d5a77463" />
+
+
 
 ### D. **Volume Management & Disk Usage**
 
