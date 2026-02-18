@@ -97,20 +97,25 @@ grep -i "authentication failure" app.log
 ### D. **Volume Management & Disk Usage**
 
 #### 1️⃣.Create a volume on aws.
+<img width="1365" height="632" alt="image" src="https://github.com/user-attachments/assets/cf8e5bed-3a5c-482c-9df7-e02ca2e00e51" />
 
-<img width="512" height="768" alt="Screenshot (542)" src="https://github.com/user-attachments/assets/b9b0e1f3-0146-409a-b44a-191f9ea31e9f" />
 
 #### 2️⃣ Create a directory /mnt/devops_data.
 
-<img width="512" height="116" alt="Screenshot (543)" src="https://github.com/user-attachments/assets/54dec6ee-38a3-4284-bdbf-10e41971a0c0" />
+<img width="582" height="104" alt="image" src="https://github.com/user-attachments/assets/0d9dd88d-49f1-41f4-9fc9-1d11f39e80be" />
+
 
 #### 3️⃣ Mount a new volume (or loop device for local practice).
+mkfs -t ext4 /dev/nvme1n1
+mount -o loop /devops_disk.img /mnt/devops_disk.img /mnt/devops_data    
+<img width="837" height="292" alt="image" src="https://github.com/user-attachments/assets/58b864c2-12f1-432c-96b5-c39d1d6f21e8" />
 
-<img width="512" height="420" alt="Screenshot (544)" src="https://github.com/user-attachments/assets/01f28605-892c-45a6-b83a-e8c5045d0918" />
 
 #### 4️⃣ Verify using df -h.
 
-<img width="512" height="178" alt="Screenshot (545)" src="https://github.com/user-attachments/assets/63ad0a23-1022-403b-8361-ab24b17a03e1" />
+<img width="855" height="293" alt="image" src="https://github.com/user-attachments/assets/de2256f5-c052-461e-a686-88a68a96eaf4" />
+
+
 
 ### E. **Process Management & Monitoring**
 
