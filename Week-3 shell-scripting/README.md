@@ -94,9 +94,19 @@ Your task is to create a bash script that takes a directory path as a command-li
 
 Additionally, the script should implement a rotation mechanism to keep only the last 3 backups. This means that if there are more than 3 backup folders, the oldest backup folders should be removed to ensure only the most recent backups are retained.
 
-<img width="512" height="393" alt="Screenshot (564)" src="https://github.com/user-attachments/assets/44f90ba2-c37e-465b-8ead-fd49ecbd0a18" />
+Script
 
-<img width="512" height="730" alt="Screenshot (565)" src="https://github.com/user-attachments/assets/0ef1df46-d9e4-4bff-a648-a9be6db3e3b3" />
+<img width="624" height="575" alt="image" src="https://github.com/user-attachments/assets/ea537b02-170b-4ef0-89f9-1a448ff48167" />
+
+<img width="750" height="307" alt="image" src="https://github.com/user-attachments/assets/6a846094-44cf-4d14-bc37-131f9f91a094" />
+
+Output
+
+<<img width="920" height="107" alt="image" src="https://github.com/user-attachments/assets/7675398c-bc24-41a5-820d-fc493e4a7dc4" />
+
+<img width="585" height="102" alt="image" src="https://github.com/user-attachments/assets/0b4a329a-d7d3-4edb-bd36-ff7df889c632" />
+
+
 
 
 
