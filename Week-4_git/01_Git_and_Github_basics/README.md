@@ -15,13 +15,14 @@ This challenge includes :
 1. **Fork the Repository:**  
    - Visit [this repository](https://github.com/LondheShubham153/90DaysOfDevOps) and fork it to your own GitHub account. If not done yet.
   
-2. **Clone Your Fork Locally:**  
-   - Clone the forked repository using HTTPS:
+2. **Clone Your Fork Locally:**
+3.   
+- Clone the forked repository using HTTPS:
      
     <img width="951" height="267" alt="image" src="https://github.com/user-attachments/assets/50373ed2-3a49-40ef-a697-ac31775c21d7" />
 
-   - Change directory into the cloned repository:
-   - 
+- Change directory into the cloned repository:
+ 
  <img width="950" height="107" alt="image" src="https://github.com/user-attachments/assets/08cd46e6-1c4b-4ddc-924c-e543999d695c" />
  
 ---
