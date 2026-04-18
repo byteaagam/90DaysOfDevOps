@@ -43,7 +43,7 @@
 
 ### 1.Update the Docker Credentials on Jenkins
 
-<img width="512" height="704" alt="Screenshot (624)" src="https://github.com/user-attachments/assets/9f57ea22-b0b7-495e-8a43-6f89a8f61924" />
+<img width="1129" height="826" alt="Gemini_Generated_Image_2hoz0q2hoz0q2hoz" src="https://github.com/user-attachments/assets/a5cc865c-34d0-403f-b09c-0b651d95a506" />
 
 ### 2.Add a new stage to pipeline 
 
@@ -51,7 +51,8 @@
 
 ### 3.Verify the push on DockerHub
 
-<img width="512" height="451" alt="Screenshot (626)" src="https://github.com/user-attachments/assets/aec1aa6b-4329-4f76-b30b-aa7d71c9607a" />
+<img width="1488" height="671" alt="Gemini_Generated_Image_2hoz0q2hoz0q2hoz (1)" src="https://github.com/user-attachments/assets/507b49a7-c0e6-4d69-9fb5-e5bfb3230756" />
+
 
 ## Task 4: Explain about github-Webhook
 
